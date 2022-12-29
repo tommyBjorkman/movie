@@ -1,2 +1,3 @@
 # movie
-tenta
+tenta. 
+skapa en imdb app. 
