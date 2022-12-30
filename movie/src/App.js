@@ -30,7 +30,7 @@ const handleSearch = (e) =>{
         <div className='title'>
           <h1>Movies</h1>
         </div>
-        <div>
+        <div className='search_field'>
           <form onSubmit={handleSearch}>
             <input onChange={(e) => setTerm(e.target.value)} />
             <button>Search</button>

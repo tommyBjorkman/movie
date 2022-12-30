@@ -8,7 +8,7 @@ const MovieCard = (props) => {
     return (
         <div className="card">
             <div className="poster">
-                <img src={api_img + props.poster_path} />
+                <img src={props.poster_path ? api_img + props.poster_path : "https://images.pexels.com/photos/10718272/pexels-photo-10718272.jpeg"} />
             </div>
             <div className="info">
                 <p className="title">{props.title}</p>
